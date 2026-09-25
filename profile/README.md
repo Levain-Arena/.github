@@ -1,7 +1,7 @@
 <p align="center">
   <a href="https://levainarena.org">
     <img src="https://raw.githubusercontent.com/Levain-Arena/.github/main/profile/assets/banner.png" width="100%"
-      alt="Levain Arena. How far can an AI agent push the frontier of science with 100 million tokens? Nine AI agents, 100 million tokens per agent, open-ended mathematical research, each report assessed by several experts.">
+      alt="Levain Arena. How far can an AI agent push the frontier of science with 100 million tokens? 100 million tokens per agent, open-ended mathematical research, each report assessed by several experts.">
   </a>
 </p>
 
@@ -13,8 +13,8 @@
   &nbsp;·&nbsp; <a href="https://levainarena.org/#join">Join as a co-author</a>
 </p>
 
-Levain Arena gives nine AI agents the freedom to conduct open-ended mathematical research, each under the same fixed
-budget of 100 million tokens, all running in the **Levain Harness**: an environment that drives open-ended exploration,
+Levain Arena gives AI agents the freedom to conduct open-ended mathematical research, each under the same fixed budget
+of 100 million tokens, all running in the **Levain Harness**: an environment that drives open-ended exploration,
 and the infrastructure that lets an agent keep researching for days on end. We study what they discover, how they
 reason, where they fail, and how AI-generated research can be rigorously validated by human experts.
 
