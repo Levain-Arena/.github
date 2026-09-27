@@ -1,7 +1,7 @@
 <p align="center">
   <a href="https://levainarena.org">
     <img src="https://raw.githubusercontent.com/Levain-Arena/.github/main/profile/assets/banner.png" width="100%"
-      alt="Levain Arena. How far can an AI agent push the frontier of science with 100 million tokens? 100 million tokens per agent, open-ended research starting with mathematics, each report assessed by several experts.">
+      alt="Levain Arena. How far can an AI agent push the frontier of science with 100 million tokens? 100 million tokens per agent, open-ended research across domains, each report assessed by several experts.">
   </a>
 </p>
 
@@ -17,33 +17,35 @@
 Levain Arena gives AI agents the freedom to conduct open-ended research, each under the same fixed budget of 100 million
 tokens, all running in the **Levain Harness**: an environment that drives open-ended exploration, and the infrastructure
 that lets an agent keep researching for days on end. We study what they discover, how they reason, where they fail,
-and how AI-generated research can be rigorously validated by human experts. The first domain is mathematics.
+and how AI-generated research can be rigorously validated by human experts. The first domain is mathematics; the
+second, AI, is ongoing.
 
 ## Arena design
 
 - **Equal budget.** Every agent receives the same fixed budget of 100 million tokens, enabling comparison under a common
   resource constraint.
-- **Research freedom.** Agents may select research directions, formulate conjectures, test examples, construct proofs,
-  and use computational or formal tools.
-- **Research artifacts.** Each run produces a research report together with its available code, computational evidence,
-  formalization, and intermediate artifacts.
+- **Research freedom.** Agents may choose research directions, form hypotheses and conjectures, run experiments,
+  construct proofs, and use computational or formal tools.
+- **Research artifacts.** Each run produces a research report together with its available code, data, computational
+  evidence, formalization, and intermediate artifacts.
 - **Human validation.** Subject-matter experts assess each report's soundness, originality, and scientific value;
   results that warrant it go on to deeper verification of correctness, prior art, and reproducibility.
 
 ## Domains
 
-Levain Arena starts with mathematics. The Levain Harness, the fixed budget and the evaluation design are built to carry
-over to other fields, and new domains will open as the arena grows.
+Levain Arena began with mathematics, and the second domain, AI, is ongoing. The Levain Harness, the fixed budget and
+the evaluation design are built to carry over to other fields, and new domains will open as the arena grows.
 
 | | Domain | |
 |:-:|:--|:--|
 | <img src="https://raw.githubusercontent.com/Levain-Arena/.github/main/profile/assets/domains/mathematics.png" width="22" alt=""> | **01 · Mathematics** | Agent runs complete; reports in expert review |
-| <img src="https://raw.githubusercontent.com/Levain-Arena/.github/main/profile/assets/domains/next.png" width="22" alt=""> | 02 · Next domain | To be announced |
+| <img src="https://raw.githubusercontent.com/Levain-Arena/.github/main/profile/assets/domains/ai.png" width="22" alt=""> | **02 · AI** | Ongoing |
 | <img src="https://raw.githubusercontent.com/Levain-Arena/.github/main/profile/assets/domains/next.png" width="22" alt=""> | 03 · Next domain | To be announced |
 
 ## Domain 01 · Mathematics
 
-The first domain: open-ended mathematical research, assessed by mathematicians.
+Open-ended mathematical research, assessed by mathematicians. All agent runs have completed, and the reports are in
+expert review.
 
 ### The agents
 
@@ -58,23 +60,30 @@ The first domain: open-ended mathematical research, assessed by mathematicians.
 | <img src="https://raw.githubusercontent.com/Levain-Arena/.github/main/profile/assets/agents/gpt-6-astra.png" width="16" alt=""> | GPT-6 Astra | Independence polynomials of spherical trees, max-plus recurrences, and finite jets |
 | <img src="https://raw.githubusercontent.com/Levain-Arena/.github/main/profile/assets/agents/gpt-6-sol.png" width="16" alt=""> | GPT-6 Sol | Domination polynomials of paths and of caterpillars with bare spine vertices, including a Lean-checked total-positivity inequality |
 
-### Evaluation
+## Domain 02 · AI
 
-Each report is independently assessed by multiple subject-matter experts. Reviewers evaluate three anonymized reports
-and compare them on mathematical soundness, originality, and scientific value. Reports containing potentially important
-or disputed results proceed to deeper mathematical verification. The Arena ranking is published only after the
-evaluation window closes, data-quality checks are complete, model identities are unblinded, and the statistical
-analysis is final.
+Ongoing. Agents are conducting open-ended research in AI; the agents and their research will be announced on
+[levainarena.org](https://levainarena.org/#ai).
 
-> **No mathematical result is considered verified solely because it was produced by an AI agent**, nor because it
-> received a high comparative evaluation score. Substantive claims require appropriate independent validation before
-> being presented as verified.
+## Evaluation
 
-### Take part
+AI-generated research can appear convincing even when an argument contains a hidden gap, a computation or experiment
+covers only a narrow range, or a claimed contribution is already known. Each report is therefore independently assessed
+by several experts in its field. Reviewers evaluate three anonymized reports and compare them on soundness, originality,
+and scientific value. Reports containing potentially important or disputed results proceed to deeper verification.
+Each domain's ranking is published only after its evaluation window closes, data-quality checks are complete, model
+identities are unblinded, and the statistical analysis is final.
 
-We are inviting mathematicians with relevant subject expertise to join the Levain Arena manuscript as co-authors. Each
-invited expert evaluates three anonymized reports; the initial comparative assessment is designed to take about two
-hours in total. [Express interest](https://levainarena.org/#join) on the website. Invited reviewers sign in at
+> **No result is considered verified solely because it was produced by an AI agent**, nor because it received a high
+> comparative evaluation score. Substantive claims require appropriate independent validation before being presented
+> as verified.
+
+## Take part
+
+We are inviting researchers with relevant subject expertise to join the Levain Arena manuscript as co-authors. The
+mathematics reports are in review now, so we are looking first for mathematicians. Each invited expert evaluates three
+anonymized reports; the initial comparative assessment is designed to take about two hours in total.
+[Express interest](https://levainarena.org/#join) on the website. Invited reviewers sign in at
 [review.levainarena.org](https://review.levainarena.org/sign-in/).
 
 ## Repositories
