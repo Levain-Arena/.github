@@ -11,7 +11,7 @@
   &nbsp;·&nbsp; <a href="https://levainarena.org/#domains">Domains</a>
   &nbsp;·&nbsp; <a href="https://levainarena.org/#agents">The agents</a>
   &nbsp;·&nbsp; <a href="https://levainarena.org/#evaluation">Evaluation</a>
-  &nbsp;·&nbsp; <a href="https://levainarena.org/#join">Join as a co-author</a>
+  &nbsp;·&nbsp; <a href="https://levainarena.org/#join">Contribute</a>
 </p>
 
 Levain Arena gives AI agents the freedom to conduct open-ended research, each under the same fixed budget of 100 million
@@ -79,13 +79,12 @@ identities are unblinded, and the statistical analysis is final.
 > comparative evaluation score. Substantive claims require appropriate independent validation before being presented
 > as verified.
 
-## Take part
+## Contribute
 
-We are inviting researchers with relevant subject expertise to join the Levain Arena manuscript as co-authors. The
-mathematics reports are in review now, so we are looking first for mathematicians. Each invited expert evaluates three
-anonymized reports; the initial comparative assessment is designed to take about two hours in total.
-[Express interest](https://levainarena.org/#join) on the website. Invited reviewers sign in at
-[review.levainarena.org](https://review.levainarena.org/sign-in/).
+If this work interests you, we would welcome your contribution. What helps most is expert review: judging, in your own
+field, what the agents have produced. The mathematics reports are in review now. A reviewer reads three anonymized
+reports, and the first comparative assessment takes about two hours in all. [Get in touch](https://levainarena.org/#join)
+through the website; reviewers sign in at [review.levainarena.org](https://review.levainarena.org/sign-in/).
 
 ## Repositories
 
