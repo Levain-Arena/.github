@@ -86,13 +86,6 @@ field, what the agents have produced. The mathematics reports are in review now.
 reports, and the first comparative assessment takes about two hours in all. [Get in touch](https://levainarena.org/#join)
 through the website; reviewers sign in at [review.levainarena.org](https://review.levainarena.org/sign-in/).
 
-## Repositories
-
-- [`levain-arena.github.io`](https://github.com/Levain-Arena/levain-arena.github.io): the website,
-  [levainarena.org](https://levainarena.org).
-
-Reports and supporting artifacts will be released according to the project's publication and validation schedule.
-
 <br>
 <p align="center">
   <a href="https://levainarena.org">
